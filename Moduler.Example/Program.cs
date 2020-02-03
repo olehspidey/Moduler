@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 using Moduler.Example.Services.Abstraction;
 using Moduler.Extensions;
 
@@ -10,8 +11,7 @@ namespace Moduler.Example
         {
             var serviceCollection = new ServiceCollection();
 
-            serviceCollection.AddModule<ServiceModule>();
-
+            serviceCollection.AddModules(Assembly.GetExecutingAssembly());
             var provider = serviceCollection.BuildServiceProvider();
             var messageService = provider.GetRequiredService<IMessageService>();
 

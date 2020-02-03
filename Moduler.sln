@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moduler", "Moduler\Moduler.csproj", "{D8D41EEF-B134-41DA-A174-074C8E1C097D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moduler", "Moduler\Moduler.csproj", "{D8D41EEF-B134-41DA-A174-074C8E1C097D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moduler.Example", "Moduler.Example\Moduler.Example.csproj", "{C03ED914-8B47-4A67-8FC7-7000CF0D4EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moduler.Example", "Moduler.Example\Moduler.Example.csproj", "{C03ED914-8B47-4A67-8FC7-7000CF0D4EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moduler.Tests", "Moduler.Tests\Moduler.Tests.csproj", "{216CF9BE-939D-4440-8610-FDCD0681A02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moduler.Test.WrongFixtures", "Moduler.Test.WrongFixtures\Moduler.Test.WrongFixtures.csproj", "{A8A1C37A-4338-4628-8318-E0CCEA36C432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C03ED914-8B47-4A67-8FC7-7000CF0D4EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03ED914-8B47-4A67-8FC7-7000CF0D4EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03ED914-8B47-4A67-8FC7-7000CF0D4EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216CF9BE-939D-4440-8610-FDCD0681A02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216CF9BE-939D-4440-8610-FDCD0681A02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216CF9BE-939D-4440-8610-FDCD0681A02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216CF9BE-939D-4440-8610-FDCD0681A02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A1C37A-4338-4628-8318-E0CCEA36C432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A1C37A-4338-4628-8318-E0CCEA36C432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A1C37A-4338-4628-8318-E0CCEA36C432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A1C37A-4338-4628-8318-E0CCEA36C432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
