@@ -1,0 +1,24 @@
+name: On push build [Windows]
+
+on: 
+  push:
+    branches: [dev, master]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.100
+    - name: Resotre
+      run: dotnet restore Moduler/Moduler.csproj
+    - name: Build with dotnet
+      run: dotnet build Moduler/Homerun.csproj --configuration Release
+    - name: Run test
+      run: dotnet test Moduler.Tests/Moduler.Tests.csproj
