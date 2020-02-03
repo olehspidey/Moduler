@@ -19,6 +19,6 @@ jobs:
     - name: Resotre
       run: dotnet restore Moduler/Moduler.csproj
     - name: Build with dotnet
-      run: dotnet build Moduler/Homerun.csproj --configuration Release
+      run: dotnet build Moduler/Moduler.csproj --configuration Release
     - name: Run test
       run: dotnet test Moduler.Tests/Moduler.Tests.csproj
