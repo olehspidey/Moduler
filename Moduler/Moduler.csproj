@@ -6,11 +6,12 @@
     <Description>This library provide possibility to create modules for DI</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryType>Github</RepositoryType>
-    <PackageTags>Microsoft DI</PackageTags>
+    <PackageTags>Microsoft DI ServiceCollection DI Module</PackageTags>
     <PackageProjectUrl>https://github.com/olehspidey/Moduler</PackageProjectUrl>
     <RepositoryUrl>https://github.com/olehspidey/Moduler</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
