@@ -3,19 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Oleh Kokhan</Authors>
-    <Description>This library provide possibility to create modules for DI</Description>
+    <Description>This library provide possibility to create modules for IoC</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryType>Github</RepositoryType>
-    <PackageTags>Microsoft DI ServiceCollection DI Module</PackageTags>
+    <PackageTags>Microsoft DI ServiceCollection IoC</PackageTags>
     <PackageProjectUrl>https://github.com/olehspidey/Moduler</PackageProjectUrl>
     <RepositoryUrl>https://github.com/olehspidey/Moduler</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Reduced dependency version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[1.0.0,3.1.1]" />
   </ItemGroup>
 
   <ItemGroup>
